@@ -19,6 +19,9 @@ const PHOTO_SIZE = 33;
 
 export function Profile() {
   const [photoIsLoading, setPhotoIsLoading] = useState(false);
+  const [userPhoto, setUserPhoto] = useState(
+    'https://github.com/rodrigomotamendes.png'
+  );
 
   async function handleUserPhotoSelect() {
     const photoSelected = await ImagePicker.launchImageLibraryAsync({
@@ -28,11 +31,11 @@ export function Profile() {
       allowsEditing: true,
     });
 
-    console.log(photoSelected);
-
     if (photoSelected.canceled) {
       return;
     }
+
+    setUserPhoto(photoSelected.assets[0].uri);
   }
 
   return (
@@ -51,7 +54,7 @@ export function Profile() {
             />
           ) : (
             <UserPhoto
-              source={{ uri: 'https://github.com/rodrigomotamendes.png' }}
+              source={{ uri: userPhoto }}
               alt="Foto do usuario"
               size={PHOTO_SIZE}
             />
