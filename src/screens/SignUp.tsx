@@ -16,9 +16,9 @@ type FormDataProps = {
 };
 
 export function SignUp() {
-  const { control, handleSubmit } = useForm<FormDataProps>();
-
   const navigation = useNavigation();
+
+  const { control, handleSubmit } = useForm<FormDataProps>();
 
   function handleGoBack() {
     navigation.goBack();
@@ -63,6 +63,7 @@ export function SignUp() {
           <Controller
             control={control}
             name="name"
+            rules={{ required: 'Informe o nome' }}
             render={({ field: { onChange, value } }) => (
               <Input placeholder="Nome" onChangeText={onChange} value={value} />
             )}
