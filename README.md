@@ -5,7 +5,7 @@
 <hr size="2" width="100%" align="center" noshade>
 
   <p align="center">
-   <img src="src/assets/ignitegym.gif" width="400">
+   <img src="mobile/src/assets/ignitegym.gif" width="400">
   </p>
 
 <h2>🚀 Descrição</h2>
@@ -40,7 +40,7 @@
 
 <h2>🔖 Layout</h2>
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/2uY16FADX9FWhKWYJz9KYx/Ignite-Gym-(Community)?node-id=37%3A6&t=hX3VNtmP28SFcjbo-1).
+Você pode visualizar o layout do projeto através [desse link](<https://www.figma.com/file/2uY16FADX9FWhKWYJz9KYx/Ignite-Gym-(Community)?node-id=37%3A6&t=hX3VNtmP28SFcjbo-1>).
 
 <h2>🔥 Para Clonar o repositório</h2>
 
