@@ -46,6 +46,7 @@ export function Home() {
   async function fetchExercisesByGroup() {
     try {
       const response = await api.get(`/exercises/bygroup/${groupSelected}`);
+      console.log(response.data);
       setExercises(response.data);
     } catch (error) {
       const isAppError = error instanceof AppError;
