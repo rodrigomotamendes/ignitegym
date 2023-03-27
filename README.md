@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/rodrigomotamendes/ignitegym/blob/master/src/assets/logo.svg" width="300">
+  <img src="https://github.com/rodrigomotamendes/ignitegym/blob/master/mobile/src/assets/logo.svg" width="300">
 </p>
 
 <hr size="2" width="100%" align="center" noshade>
@@ -36,6 +36,19 @@
  <li>
   <a href='https://react-hook-form.com/' target="_blank" rel="nofollow">React Hook Form</a>
  </li>
+ 
+ <li>
+  <a href='https://github.com/jquense/yup' target="_blank" rel="nofollow">Yup</a>
+ </li>
+ 
+ <li>
+  <a href='https://github.com/axios/axios' target="_blank" rel="nofollow">Axios</a>
+ </li>
+ 
+ <li>
+  <a href='https://www.npmjs.com/package/@react-native-async-storage/async-storage' target="_blank" rel="nofollow">React Native Async Storage</a>
+ </li>
+ 
 </u>
 
 <h2>🔖 Layout</h2>
@@ -57,6 +70,16 @@ Você pode visualizar o layout do projeto através [desse link](<https://www.fig
 
 <p>Utilize o <b>yarn</b> ou o <b>npm install</b> para instalar as dependências do projeto.
 Em seguida, inicie o projeto. </p>
+
+<p>Para iniciar a pasta api utilize o comando.</p>
+
+<div class="highlight highlight-source-shell">
+<pre>
+npm run dev
+</pre>
+</div>
+
+<p>Para iniciar o projeto mobile utilize o comando.</p>
 
 <div class="highlight highlight-source-shell">
 <pre>
